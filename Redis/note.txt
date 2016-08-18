@@ -1,0 +1,48 @@
+***從中學習到的資料***
+
+
+1.CURLOPT_COOKIEJAR 是接收儲存，而CURLOPT_COOKIEFILE就是送出資訊:
+
+<?php
+
+    $url=http://www.test.com.tw/test.php;
+    $ch=curl_init();
+    curl_setopt($ch,CURLOPT_URL,$url);
+    curl_setopt($ch,CURLOPT_HEADER,false);
+    curl_setopt($ch, CURLOPT_COOKIEJAR, "cookie.txt");
+    curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+
+    $temp=curl_exec($ch);
+
+?>
+
+<?php
+
+$url=http://www.test.com.tw/test.php;
+$ch=curl_init();
+curl_setopt($ch,CURLOPT_URL,$url);
+curl_setopt($ch,CURLOPT_HEADER,false);
+curl_setopt($ch, CURLOPT_COOKIEFILE, "cookie.txt");
+curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+
+$temp=curl_exec($ch);
+
+?>
+
+2.寫入檔案:
+
+w+是可以多次覆寫
+
+$file = fopen("original.txt", "w+");
+    fwrite($file, $data);
+    fclose($file);
+
+3.取代資料:
+str_replace('要取代的字串', '取代的字串', '查詢的字串');
+
+4.得知位置
+strpos('全部字串', '要搜尋的字串');
+
+5.擷取資料
+substr('全部字串', '起始位置', '擷取的字串長度');
+
