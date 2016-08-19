@@ -1,1 +1,1 @@
-<?php $page_total=2;
+<?php $page_total=1;
