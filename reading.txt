@@ -1,0 +1,6 @@
+控制反轉（Inversion of Control）是一種是面向對象編程中的一種設計原則，用來減低計算機代碼之間的耦合度。其基本思想是：借助於“第三方”實現具有依賴關係的對象之間的解耦。
+
+依賴注入就是將實例變量傳入到一個對像中去(Dependency injection means giving an object its instance variables)。
+
+推薦:
+http://blog.xiaohansong.com/2015/10/21/IoC-and-DI/
