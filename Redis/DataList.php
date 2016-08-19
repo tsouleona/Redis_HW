@@ -1,16 +1,16 @@
 <?php
-require_once 'Delete.php';
-require_once 'GetData.php';
+// require_once 'Delete.php';
+// require_once 'GetData.php';
 require_once 'RedisProcess.php';
 
 
-    $delete = new DeleteData();
-    $delete->deleteAll();
-    $getdata = new GetData();
-    $getdata->getP();
-    $getdata->getData();
+    // $delete = new DeleteData();
+    // $delete->deleteAll();
+    // $getdata = new GetData();
+    // $getdata->getP();
+    // $getdata->getData();
     $redis = new RedisProcess();
-    $redis->setRedis();
+    // $redis->setRedis();
     $data = $redis->getRedis();
     $ans = json_decode($data, true);
 ?>
