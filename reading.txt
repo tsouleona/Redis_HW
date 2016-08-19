@@ -1,6 +1,13 @@
-±±¨î¤ÏÂà¡]Inversion of Control¡^¬O¤@ºØ¬O­±¦V¹ï¶H½sµ{¤¤ªº¤@ºØ³]­p­ì«h¡A¥Î¨Ó´î§C­pºâ¾÷¥N½X¤§¶¡ªº½¢¦X«×¡C¨ä°ò¥»«ä·Q¬O¡G­É§U©ó¡§²Ä¤T¤è¡¨¹ê²{¨ã¦³¨Ì¿àÃö«Yªº¹ï¶H¤§¶¡ªº¸Ñ½¢¡C
+ï»¿æ§åˆ¶åè½‰ï¼ˆInversion of Controlï¼‰æ˜¯ä¸€ç¨®æ˜¯é¢å‘å°è±¡ç·¨ç¨‹ä¸­çš„ä¸€ç¨®è¨­è¨ˆåŸå‰‡ï¼Œç”¨ä¾†æ¸›ä½è¨ˆç®—æ©Ÿä»£ç¢¼ä¹‹é–“çš„è€¦åˆåº¦ã€‚å…¶åŸºæœ¬æ€æƒ³æ˜¯ï¼šå€ŸåŠ©æ–¼â€œç¬¬ä¸‰æ–¹â€å¯¦ç¾å…·æœ‰ä¾è³´é—œä¿‚çš„å°è±¡ä¹‹é–“çš„è§£è€¦ã€‚
 
-¨Ì¿àª`¤J´N¬O±N¹ê¨ÒÅÜ¶q¶Ç¤J¨ì¤@­Ó¹ï¹³¤¤¥h(Dependency injection means giving an object its instance variables)¡C
+ä¾è³´æ³¨å…¥å°±æ˜¯å°‡å¯¦ä¾‹è®Šé‡å‚³å…¥åˆ°ä¸€å€‹å°åƒä¸­å»(Dependency injection means giving an object its instance variables)ã€‚
 
-±ÀÂË:
+æ¨è–¦:
 http://blog.xiaohansong.com/2015/10/21/IoC-and-DI/
+
+
+CURL:
+æŠ“å–ç¶²é è³‡è¨Š
+
+æ¨è–¦:
+http://idobest.pixnet.net/blog/post/25367080-%5B%E8%BD%89%E8%B2%BC%5D-php-curl%E8%A9%B3%E8%A7%A3
